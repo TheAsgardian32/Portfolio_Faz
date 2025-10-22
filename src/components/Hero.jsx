@@ -26,7 +26,7 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible"
                      className='pb-16 text-6xl font-thin tracking-tight lg:mt-16
-                    lg:text-8xl'>Farhan Fazi</motion.h1>
+                    lg:text-8xl'>Farhan Fazil</motion.h1>
                     <motion.span 
                     variants={frleft(0.5)}
                     initial="hidden"
@@ -49,7 +49,7 @@ const Hero = () => {
                     initial={{x:100,opacity:0}}
                     animate={{x:0,opacity:0.9}}
                     transition={{duration:0.5,delay:1}}
-                    src="./Prof.jpg" alt="prof_pic" height={500} width={500} className='rounded-4xl '/>
+                    src="src/assets/Prof.jpg" alt="prof_pic" height={500} width={500} className='rounded-4xl '/>
               </div>
 
             </div>
