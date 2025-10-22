@@ -1,5 +1,6 @@
 import React from 'react'
 import {HERO_CONTENT} from "../constants"
+import prof from "../assets/Prof.jpg"
 
 import {motion} from "framer-motion"
 
@@ -49,7 +50,7 @@ const Hero = () => {
                     initial={{x:100,opacity:0}}
                     animate={{x:0,opacity:0.9}}
                     transition={{duration:0.5,delay:1}}
-                    src="src/assets/Prof.jpg" alt="prof_pic" height={500} width={500} className='rounded-4xl '/>
+                    src={prof} alt="prof_pic" height={500} width={500} className='rounded-4xl '/>
               </div>
 
             </div>
